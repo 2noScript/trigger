@@ -107,6 +107,7 @@ for task in tasks:
         )
         print(resp.status_code)
         print(resp.text)
-        time.sleep(60)
     except Exception as e:
         print(e)
+    time.sleep(60)
+    
