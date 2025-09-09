@@ -1,4 +1,5 @@
 from curl_cffi import requests
+import time
 
 url = "https://like.vn/api/mua-follow-tiktok/order"
 
@@ -106,5 +107,6 @@ for task in tasks:
         )
         print(resp.status_code)
         print(resp.text)
+        time.sleep(15)
     except Exception as e:
         print(e)
