@@ -109,5 +109,5 @@ for task in tasks:
         print(resp.text)
     except Exception as e:
         print(e)
-    time.sleep(60)
+    time.sleep(30)
     
