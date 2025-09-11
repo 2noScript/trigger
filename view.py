@@ -52,7 +52,7 @@ for index, profile in enumerate(profiles):
         payload["objectId"] = videos[index]
         headers["api-token"] = profile["api-token"]
         headers["x-csrf-token"] = profile["x-csrf-token"]
-        response = requests.post(url, headers=headers, data=payload)
+        response = requests.post(url, headers=headers, data=payload, impersonate="chrome")
         print(response.text)
     except Exception as e:
         print(e)
