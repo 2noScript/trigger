@@ -1,8 +1,8 @@
-name: trigger
+name: view
 
 on:
   schedule:
-    - cron: "*/15 * * * *"  
+    - cron: "*/30 * * * *"  
   workflow_dispatch:  
 
 jobs:
@@ -27,5 +27,5 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run the script
-        run: python trigger.py
+        run: python view.py
     
