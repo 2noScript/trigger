@@ -41,7 +41,7 @@ payload = {
     "objectId": "",
     "server_order": "5",
     "giftcode": "",
-    "amount": "10",
+    "amount": "100",
     "note": "",
 }
 
