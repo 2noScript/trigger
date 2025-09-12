@@ -39,9 +39,9 @@ headers = {
 
 payload = {
     "objectId": "",
-    "server_order": "5",
+    "server_order": "6",
     "giftcode": "",
-    "amount": "100",
+    "amount": "10",
     "note": "",
 }
 
